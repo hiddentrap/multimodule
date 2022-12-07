@@ -1,0 +1,8 @@
+/*
+batch 모듈은 실행이 필요하므로 앞서 core 모듈에서 작성했던 bootJar 세팅을 해주지 않음
+implementation으로 module-core를 사용하도록 설정
+*/
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation project(':module-core')
+}

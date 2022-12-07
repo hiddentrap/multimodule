@@ -1,0 +1,5 @@
+rootProject.name = 'multimodule'
+include 'module-batch'
+include 'module-core'
+include 'module-web'
+

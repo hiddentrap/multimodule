@@ -1,0 +1,6 @@
+# core 모듈에서 application-core.yml을 작성해 놓았다면 이를 include 해줄 수 있음
+spring:
+  profiles:
+    include: core
+server:
+  port: 8081
